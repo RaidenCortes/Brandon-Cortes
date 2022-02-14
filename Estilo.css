@@ -1,101 +1,232 @@
-header{
-    background: #F73CAB;
-    background: -moz-linear-gradient(left, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    background: -webkit-linear-gradient(left, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    background: linear-gradient(to right, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    left: auto;
-    bottom: auto;
-    width: auto;
-    height: auto;
-    color:#F73CAB;
-    text-align: center;
-
-}
-
-section{
-    background: #F73CAB;
-    background: -moz-linear-gradient(left, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    background: -webkit-linear-gradient(left, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    background: linear-gradient(to right, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    
-}
-.aside{
-    background: #30FCF1;
-    color:#F73CAB;
-    float: right;
-    margin-right: 2px;
-    
-}
-
-
-body{
-    background: #F73CAB;
-    background: -moz-linear-gradient(left, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    background: -webkit-linear-gradient(left, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-    background: linear-gradient(to right, #F73CAB 0%, #30FCF1 51%, #1E1E1E 100%);
-}
-
-
-nav
+header
 {
-
-  text-align: center;  
+    width: 80%; 
+	height: 80%; 
+	padding: 2% 2%;
+	border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: #faf8f8 5px 5px 20px;
+    margin-top: 2%;
+    background:rgba(0, 0, 0, 0.623);
 }
-
-ul{
-    list-style: none;
-    background: #F73CAB;
+body
+{
+    background-image: url(https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-bau-troi-dem-dau-sao-cho-may-tinh-2.jpg);
+    background-attachment: fixed;
+    width: auto;
     margin: auto;
-    padding: auto;
-    overflow: hidden;
 }
-li{
+#navegador
+{
+    float: center;
+    list-style: none;
+    overflow: hidden;
+    width: 70%; 
+	height: 70%; 
+	padding: 0% 2%;
+	background:rgba(0, 0, 0, 0.623);
+	border-radius: 10px;
+    margin-top: 2%;
+	border: 2px solid black;
+	box-shadow: #faf8f8 5px 5px 20px;  
+}
+.menu
+{
     float: left;
 }
-li a{
+.menu a
+{
     display: block;
-    color: #bb0350;
+    color: #e9e1e4;
     text-align: center;  
     padding: 10px 10px;
     text-decoration: none;
-    border-right: 1px solid #1E1E1E ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+
 }
-li a:hover{
+li a:hover
+{
     background-color: #929292;
-    color:aqua;
+    color:rgb(163, 19, 156);
 }
-
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 12%;
-    background-color: #30FCF1;
-    color: #F73CAB;
+#redsocial
+{
+    float: right;
+    width: 10%;
+    height: 16%;
+    margin-right: 2%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: #faf8f8 5px 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    text-align: left;
+    color: #e9e1e4;
+}
+.cuerpo
+{
+ float: top;
+ width: 78%;
+ height: 80%;
+ margin-left: 5%;
+ margin-right: 2%;
+ margin-bottom: 2%;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 95%;
+ text-align: center;
+ color: #e9e1e4;
+ border-color: rgb(0, 0, 0);
+ border-radius: 30px;
+ border-style: solid;
+ background-color: rgba(0, 0, 0, 0.623);
+ box-shadow: #faf8f8 5px 5px 20px;  
+}
+#mapa
+{
+    float: top;
+    width:  80%;
+    height: 80%;
+    margin-bottom: 2%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.623);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
     text-align: center;
-    font: bold 10px Arial, sans-serif;
-  }
-
-  
-  table {
-    width: 70%;
-    margin: 0 auto;
-    border: 1px solid #bb0350;
-  }
-  th, td {
-    width: 25%; 
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid #bb0350;
-  }
-#ladoiz
+    color: #e9e1e4;
+    box-shadow: #faf8f8 5px 5px 20px;
+}
+#pie
 {
     float: center;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    text-align: center;
+    color: #e9e1e4;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: #faf8f8 5px 5px 20px;
 }
-h1
+#biografia
 {
-text-align: center;
-
+ float: top;
+ width: 78%;
+ height: 80%;
+ margin-left: 5%;
+ margin-right: 2%;
+ margin-bottom: 2%;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 80%;
+ text-align: center;
+ color: #e9e1e4;
+ border-color: rgb(0, 0, 0);
+ border-radius: 30px;
+ border-style: solid;
+ background-color: rgba(0, 0, 0, 0.623);
+ box-shadow: #faf8f8 5px 5px 20px;  
+}
+.mg1
+{
+    float: center;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: #faf8f8 5px 5px 20px;      
+}
+.contenedor-imagenes 
+{
+    display: flex;
+} 
+.contenedor-imagenes img:first-child 
+{
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.Mensaje
+{
+    float: top;
+    width: 28%;
+    height: 60%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    text-align: center;
+    color: #e9e1e4;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: #faf8f8 5px 5px 20px; 
+}
+.Metas
+{
+    float: top;
+    width: 78%;
+    height: 60%;    
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;    
+    color: #e9e1e4;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgba(21, 136, 230, 0.623);
+    box-shadow: #1240bd 5px 5px 20px; 
+}
+.seccion
+{
+    border: 2px solid black;
+    text-align: center;
+}
+.Habilidades
+{
+    float: top;
+    width: 78%;
+    height: 60%;    
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;    
+    color: #e9e1e4;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgba(252, 193, 94, 0.623);
+    box-shadow: rgb(252, 193, 94) 5px 5px 20px;    
+}
+#series
+{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 15%;
+    
+}
+.imagen
+{
+    width: 40%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
