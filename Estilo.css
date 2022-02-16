@@ -1,17 +1,19 @@
 header
 {
-    width: 80%; 
+    width: 95%; 
 	height: 80%; 
 	padding: 2% 2%;
+    margin-right: 0.3%;
+    margin-left: 0.3%;
 	border: 2px solid black;
     border-radius: 10px;
-    box-shadow: #faf8f8 5px 5px 20px;
-    margin-top: 2%;
+    margin-top: 1%;
     background:rgba(0, 0, 0, 0.623);
 }
 body
 {
     background-image: url(https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-bau-troi-dem-dau-sao-cho-may-tinh-2.jpg);
+    /*background-color: #929292;*/
     background-attachment: fixed;
     width: auto;
     margin: auto;
@@ -21,14 +23,14 @@ body
     float: center;
     list-style: none;
     overflow: hidden;
-    width: 70%; 
-	height: 70%; 
+    width: 95%;  
 	padding: 0% 2%;
+    margin-right: 0.3%;
+    margin-left: 0.3%;
 	background:rgba(0, 0, 0, 0.623);
 	border-radius: 10px;
-    margin-top: 2%;
-	border: 2px solid black;
-	box-shadow: #faf8f8 5px 5px 20px;  
+    margin-top: 1%;
+	border: 2px solid black;  
 }
 .menu
 {
@@ -53,14 +55,14 @@ li a:hover
 #redsocial
 {
     float: right;
-    width: 10%;
+    position: relative;
+    width: 14%;
     height: 16%;
-    margin-right: 2%;
+    margin-right: 0.3%;
     border-color: rgb(0, 0, 0);
     border-radius: 30px;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.623);
-    box-shadow: #faf8f8 5px 5px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
     text-align: left;
@@ -69,10 +71,8 @@ li a:hover
 .cuerpo
 {
  float: top;
- width: 78%;
- height: 80%;
- margin-left: 5%;
- margin-right: 2%;
+ width: 83%;
+ margin-left: 0.3%;
  margin-bottom: 2%;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 95%;
@@ -81,8 +81,7 @@ li a:hover
  border-color: rgb(0, 0, 0);
  border-radius: 30px;
  border-style: solid;
- background-color: rgba(0, 0, 0, 0.623);
- box-shadow: #faf8f8 5px 5px 20px;  
+ background-color: rgba(0, 0, 0, 0.623); 
 }
 #mapa
 {
@@ -102,11 +101,10 @@ li a:hover
 }
 #pie
 {
-    float: center;
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
-    margin-bottom: 2%;
+    width: 98%; 
+	height: 80%; 
+    margin-right: 0.3%;
+    margin-left: 0.3%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 95%;
     text-align: center;
@@ -115,15 +113,11 @@ li a:hover
     border-radius: 30px;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.623);
-    box-shadow: #faf8f8 5px 5px 20px;
 }
 #biografia
 {
- float: top;
- width: 78%;
- height: 80%;
- margin-left: 5%;
- margin-right: 2%;
+ width: 80%;   
+ margin-left: 0.3%;
  margin-bottom: 2%;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 80%;
@@ -132,16 +126,12 @@ li a:hover
  border-color: rgb(0, 0, 0);
  border-radius: 30px;
  border-style: solid;
- background-color: rgba(0, 0, 0, 0.623);
- box-shadow: #faf8f8 5px 5px 20px;  
+ background-color: rgba(0, 0, 0, 0.623); 
 }
 .mg1
 {
-    float: center;
     width: 80%;
-    height: 80%;
-    margin-left: 5%;
-    margin-right: 2%;
+    margin-left: 0.3%;
     margin-bottom: 2%;
     border-color: rgb(0, 0, 0);
     border-radius: 30px;
@@ -162,7 +152,7 @@ li a:hover
 {
     float: top;
     width: 28%;
-    height: 60%;
+    height: auto;
     margin-left: 5%;
     margin-right: 2%;
     margin-bottom: 5%;
@@ -174,44 +164,49 @@ li a:hover
     border-radius: 30px;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.623);
-    box-shadow: #faf8f8 5px 5px 20px; 
 }
 .Metas
 {
     float: top;
-    width: 78%;
-    height: 60%;    
-    margin-left: 12%;
-    margin-right: 15%;
+    width: 88%;  
+    margin-left: 6%;
     margin-bottom: 2%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;    
+    font-size: 100%;    
     color: #e9e1e4;
     border-color: rgb(0, 0, 0);
     border-style: solid;
     background-color: rgba(21, 136, 230, 0.623);
-    box-shadow: #1240bd 5px 5px 20px; 
+}
+#imgmet
+{
+    width: 89%;
+    margin: 1%;  
 }
 .seccion
 {
     border: 2px solid black;
     text-align: center;
+    width: 20%;
+}
+#imghabi
+{
+    width: 35%;
+    margin: 1%;
+
 }
 .Habilidades
 {
     float: top;
-    width: 78%;
-    height: 60%;    
-    margin-left: 12%;
-    margin-right: 15%;
+    width: 88%;   
+    margin-left: 6%;
     margin-bottom: 2%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;    
+    font-size: 100%;    
     color: #e9e1e4;
     border-color: rgb(0, 0, 0);
     border-style: solid;
-    background-color: rgba(252, 193, 94, 0.623);
-    box-shadow: rgb(252, 193, 94) 5px 5px 20px;    
+    background-color: rgba(252, 193, 94, 0.623);    
 }
 #series
 {
@@ -227,6 +222,15 @@ li a:hover
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: auto;
-    
+    margin-bottom: auto;   
+}
+#contacto
+{
+    float: top;
+    width: 88%;   
+    margin-left: 6%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;    
+    color: #e9e1e4; 
 }
