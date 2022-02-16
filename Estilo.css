@@ -12,11 +12,9 @@ header
 }
 body
 {
-    background-image: url(https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-bau-troi-dem-dau-sao-cho-may-tinh-2.jpg);
+    background: url(https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-bau-troi-dem-dau-sao-cho-may-tinh-2.jpg) no-repeat;
     /*background-color: #929292;*/
-    background-attachment: fixed;
-    width: auto;
-    margin: auto;
+    background-size: cover;
 }
 #navegador
 {
